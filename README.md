@@ -6,7 +6,7 @@
 </h3>
  <h3 align="center">
  
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPNInlaA7sSMZVX4m867mCFqlKRc8eUPQi1jblI2UIw22jynNno12Q1MKb0Nx5X-WHpn8&usqp=CAU" width="200000">
+  <img src="https://files.virgool.io/upload/users/10591/posts/gzswvktrwjcl/ssniekhtklni.png" width="200000">
 
 </h3>
 
