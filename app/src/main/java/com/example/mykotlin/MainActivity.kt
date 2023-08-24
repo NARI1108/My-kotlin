@@ -23,6 +23,19 @@ class MainActivity : AppCompatActivity() {
         Log.i("console",kind_second.toString())
         Log.i("console",kind_third.toString())
         Log.i("console",kind_fourth.toString())
+        var str = "welcome to android programming"
+        var str1 = str.subSequence(11,18);
+        Log.i("console",str1.toString());
+        var str2 = str.length;
+        Log.i("console", str2.toString());
+        var str3 = str.contains("android",true);
+        Log.i("console",str3.toString());
+        var firstName = "Naser";
+        var lastName = "Ahmadi"
+        var str4 = "this is my name "+firstName+" "+lastName;
+        var str5 = "this is my name $firstName $lastName";
+        Log.i("console", str4);
+        Log.i("console",str5);
     }
 
 }
