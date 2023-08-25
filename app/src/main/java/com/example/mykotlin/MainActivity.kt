@@ -36,6 +36,18 @@ class MainActivity : AppCompatActivity() {
         var str5 = "this is my name $firstName $lastName";
         Log.i("console", str4);
         Log.i("console",str5);
+        var x = 2;
+        var y = 23;
+        if(x<y){
+            Log.i("console","x is small  than y");
+        }else {
+            Log.i("console", "x isn't small than y");
+        }
+    val b = 2;
+    val c = 3;
+    if(c>b){
+        var number = b%c;
+        Log.i("console",number.toString());}
     }
 
 }
