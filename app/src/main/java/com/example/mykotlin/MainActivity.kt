@@ -13,41 +13,24 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        var apple=3
-        var orange=4
-        var kind_first = apple+orange
-        var kind_second = apple-orange
-        var kind_third = apple*orange
-        var kind_fourth = apple/orange
-        Log.i("console",kind_first.toString())
-        Log.i("console",kind_second.toString())
-        Log.i("console",kind_third.toString())
-        Log.i("console",kind_fourth.toString())
-        var str = "welcome to android programming"
-        var str1 = str.subSequence(11,18);
-        Log.i("console",str1.toString());
-        var str2 = str.length;
-        Log.i("console", str2.toString());
-        var str3 = str.contains("android",true);
-        Log.i("console",str3.toString());
-        var firstName = "Naser";
-        var lastName = "Ahmadi"
-        var str4 = "this is my name "+firstName+" "+lastName;
-        var str5 = "this is my name $firstName $lastName";
-        Log.i("console", str4);
-        Log.i("console",str5);
-        var x = 2;
-        var y = 23;
-        if(x<y){
-            Log.i("console","x is small  than y");
-        }else {
-            Log.i("console", "x isn't small than y");
-        }
-    val b = 2;
-    val c = 3;
-    if(c>b){
-        var number = b%c;
-        Log.i("console",number.toString());}
-    }
+     /*   val number1: Int=100
+        val number2: Int=50
+        var result:Int = number1+number2
+        Log.i("console", result.toString());
+            result = number1-number2
+        Log.i("console",result.toString());
+            result = number1*number1
+        Log.i("console", result.toString())
+            result = number1/number2
+        Log.i("console",result.toString());*/
+       /* var str = "Welcome To 'Android Programming' "
+        Log.i("console",str)*/ /*var str = "Welcome to \\Android Programming\\"
+        Log.i("console",str)*/
+       /*   var str = "Welcome To \nAndroid programming"
+        Log.i("console",str)*/
+        var str = """Welcome To 
+                     Android Programming""".trimMargin()
+        Log.i("console",str)
 
+    }
 }
